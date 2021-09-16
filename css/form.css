@@ -1,0 +1,142 @@
+/* start reCAPTCHA styles */
+
+
+.fieldset{
+    margin: 0 auto;
+  background: skyblue;
+  
+}
+
+
+.contact .section {
+    margin: 10 auto;
+    padding: 10px;
+}
+fieldset legend{
+  background: skyblue;
+    padding-top: 10px;
+}
+    form>div {
+        margin:1em;
+    }
+
+form{
+    font-size: 25px;
+}
+   /* writes to small text above reCAPTCHA upon failure */
+
+
+  .dateFeedback{
+        font-style:italic;
+        font-size:60%;
+        font-weight:bold;
+        color:#f00;
+    }
+
+    input:required {
+          border: 1px solid #00FF00;
+    }
+
+     input:optional, textarea:optional {
+         background-color:#f1f1f1;
+         border:2px solid red;
+    }
+
+    input[type="submit"], input[type="button"] {
+      background-color: #fff;
+      border-radius: 4px;
+      border: solid 1px #ccc;
+      padding: 0.3em 0.5em;
+    }
+
+  
+
+    legend {
+      margin-left: 0.5em;
+      padding: 0.2em 0.5em;
+/*
+      border-left: 1px solid #ccc;
+      border-right: 2px solid #ccc;
+*/
+    }
+
+    /* end reCAPTCHA styles */
+
+
+form {
+         max-width:100% auto;
+        background: skyblue;
+            
+        }
+        input {
+/*            background: lightyellow;*/
+            margin-bottom: 10px;
+            margin-bottom: 20px;
+        }
+textarea{
+/*    background: lightyellow;*/
+    
+}
+        input[type=text],
+        input[type=email],
+        input[type=tel],
+        textarea  {
+            width:100%;    
+            height:30px;
+        }
+        
+        textarea {
+            height:120px;
+            margin-bottom:20px;
+        }
+        
+        fieldset {
+/*            color:black;*/
+/*            padding:10px 15px 10px 10px; */
+/*            background:beige;*/
+            text-decoration-line: none;
+        }
+
+
+        label {
+            display:block;
+            margin-bottom:5px;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        
+
+        select {
+            margin-bottom: 10px;
+        }
+
+@media all and (min-width:737px)  {
+    
+   .fieldset{
+    width: 100%;
+    width: 700px;
+    
+    }
+	
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+       	width:100%;
+        display:inline-block;
+    }
+    
+    .fieldset {
+		
+	font-size: 16px;
+    max-width:auto;
+    
+	}
+	
+
+}
+

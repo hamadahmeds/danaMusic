@@ -1,0 +1,675 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ 
+}
+
+html,body {
+
+    background-color:#34477A;
+}
+
+
+div.wrapper,footer {
+    width:90%;
+    margin:auto;
+    background-color:#fff;
+    overflow:auto;
+}
+
+body{
+font-family: 'Cardo', serif;
+    
+}
+
+.pageID{
+    width: 100%;
+   text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+/* style , logo and h1 top */
+.h1top {
+   text-align: center;
+    width: 200px;
+    height: 200px; 
+}
+header {
+
+    background:#4f80E2;
+    height: 400px;
+    
+    
+}
+.h1top {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+.h1top a {
+    text-decoration: none;
+    color: #fff; 
+    text-align: center;
+}
+.h1top a:hover{
+    color: aqua;
+}
+
+
+
+#headrow{
+height: 150px;
+max-width: 100% auto;
+
+    
+}
+.logo1{
+ height: 150px;
+ width: 250px;
+ padding: 10px;
+ margin: 0 auto;
+ display: block;
+
+}
+
+.home .pageID {
+
+  font-size: 25px;
+    width: 100%; 
+     margin: 20px auto;
+   
+    
+}
+
+background-color: lightgrey;
+  padding: 20px;
+
+
+div.content > p{
+
+    
+    padding: 10px 20px;
+    line-height: 1.8;
+    font-size: 20px;
+   
+}
+.about .pageID {
+   
+  
+    margin-bottom: 10px;
+    margin: 0 auto;
+    line-height: 2.5;
+    font-size: 30px;
+    
+}
+
+.about-pic{
+    
+/*
+     width: 400px;
+    max-width: 100%;
+    float:right;
+    margin:20px;
+    margin-top: -30px;
+    
+*/
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*  width: 50%;*/
+    width: 400px;
+     max-width: 100%;
+    border-radius: 30px;
+
+}
+.about  p  {
+   
+    max-width: 70% auto;
+    width: 500px;
+    margin: 0 auto;
+   
+    padding: 20px;
+   line-height:1.375em;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    
+}
+
+.lessons .pageID {
+   
+    max-width: 100%;
+    
+    margin: 0 auto;
+    
+}
+
+.lessons {
+    max-width: 100%;
+   text-align: center;
+    
+ 
+}
+.lessons  p  {
+    max-width: 70% auto;
+    width: 500px;
+    margin: 0 auto;
+
+    font-size: 20px;
+    line-height:1.375em;
+    border-bottom: 2px solid black;
+
+}
+.lessons .gallery{
+    max-width: 100%;
+    
+  
+}
+
+.policy {
+    max-width: 100%;
+   text-align: center;
+/*    background-color: #00FF00;*/
+ 
+}
+.policy  p  {
+    width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height:1.375em;
+    border-bottom: 2px solid black;
+
+}
+.policy .gallery{
+    max-width: 100%;
+    
+  
+}
+
+
+
+.gallery img{
+  width: 50%;
+padding: 20px;
+ 
+}
+.content p{
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+
+.flute{
+   
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    display:inherit;
+/*
+    float: right;
+    clear: both;
+    
+*/
+}
+.piano{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+/*    float: right;*/
+/*    clear: both;*/
+/*    padding-bottom: 30px;*/
+   margin: 20px auto;
+    display:inherit;
+     
+}
+
+
+p {
+ width:70% auto;
+ width: 800px;
+line-height: 1.8;
+/*margin-bottom: 20px;*/
+font-size: 20px;
+line-height:1.3em;
+border-bottom: 2px solid black;
+
+}
+
+.lessons p {
+ width:70% auto;
+padding: 10px;
+ width: 800px;
+line-height: 1.8;
+/*margin-bottom: 20px;*/
+font-size: 20px;
+line-height:1.3em;
+border-bottom: 2px solid black; 
+}
+
+
+  
+section {
+    max-width:100%;
+    
+}
+
+/* START Global Embed Responsively Rules! */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+
+
+
+/*this will  hide agenda view in clander*/
+div.embed-container.agenda-view {
+    display:none;
+}
+
+/* END Global Embed Responsively Rules! */
+
+
+/* EMBED RESPONSIVELY STYLE / Map*/
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden; 
+  max-width: 100%;
+}
+
+
+
+.embed-container iframe{
+
+ position: absolute;
+ top: 0; left: 0;
+ width: 100%; 
+ height: 100%; 
+}
+
+ /* EMBED RESPONSIVELY STYLE */ 
+
+footer {
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+    background: gray;
+    width: 100%;
+}
+
+footer p {
+    padding:2em;
+    
+}
+
+footer a {
+    color:green;
+    text-decoration: none;
+   
+    width: 15%;
+    
+}
+
+footer a:hover {
+    color:white;
+    background-color:lightgreen;
+}
+    
+img{
+    max-width: 100%;
+}
+
+footer{
+    height: 200px;
+    line-height: 50px;
+    border-top: 1px dotted green;
+    clear: both;
+    background: #B7EFED;
+    width: 100%;
+   
+}
+footer li {
+float: left;
+  margin: 0 auto;
+    margin-left: 10px;
+    list-style-type: none;
+
+}
+footer a:hover {
+    color:white;
+    background-color:black;
+}
+
+
+
+blockquote{
+    font-size: 1.4em;
+    margin: 20px 100px 20px 100px;
+}
+
+
+/* Phat PHONE Rules! */
+
+
+@media all and (max-width:700px) {
+    div.wrapper {
+    
+    }
+    .home .pageID {
+   
+    max-width: 50%;
+    margin: 0 auto;
+
+    }
+
+.h1top {
+        height: auto;
+    }
+#headrow{
+        
+   display: none;
+    }
+    
+   header {
+       height :auto;
+       
+        
+    }
+    
+p {
+    font-size: 16px;
+  
+    width: 100% auto;
+    padding:10px;
+    line-height: 1.5;
+     border-bottom: solid 3px green;
+    }
+
+    
+.about{
+    margin: 0 auto;
+    }
+.about  p  {
+    font-size: 0px;
+    width: 100%;
+    padding:10px;
+    
+
+    line-height: 1.5;
+    border-bottom: 2px solid black;
+   
+
+}
+    .about-pic{
+    
+    margin:0;
+    border-radius: 45px
+    
+}
+  
+    
+div.content p {
+    font-size: 20px;
+  
+    width: 100%;
+    padding:10px;
+    line-height: 1.5;
+    margin-bottom: 3px;
+    
+}
+.lessons img{
+
+
+    width: 400px;
+padding: 20px;
+}
+.lessons  p  {
+    max-width: 100%;
+
+    font-size: 25px;
+
+    width: 100%;
+    padding:10px;
+    line-height: 1.5;
+
+
+border-bottom: 2px solid black;
+margin-bottom: 5px;
+    
+}  
+    
+.policy img{
+
+
+width: 400px;
+padding: 20px;
+}
+ 
+    
+.about-pic{
+    
+    margin:0;
+    border-radius: 45px
+    
+}
+    
+  .flute{
+   
+    max-width: 100% auto;
+
+    height: auto;
+    margin-bottom: 10px;
+/*    margin-left: 20px;*/
+}  
+    
+.piano{
+   
+   max-width: 100% auto;
+
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}  
+    
+    
+footer li {
+float: none;
+width: 100%;
+text-align: center;
+margin-left: 10px;
+list-style-type: none;
+height: 30px;
+     
+}
+    
+    
+}
+
+
+
+@media all and (max-width:768px) {
+    
+    
+.home .pageID {
+    
+    max-width: 50%;
+    margin: 0 auto;
+    
+
+    }
+    .about-pic{
+    
+    margin:0;
+    border-radius: 45px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    display: block;
+    padding: 5px 0;     
+
+}
+
+.h1top {
+        height: auto;
+    }
+#headrow{
+        
+   display: none;
+    }
+    
+   header {
+       height :auto;
+       
+        
+    }
+    
+p {
+    font-size: 16px;
+  
+    width: 100% auto;
+    padding:10px;
+    line-height: 1.5;
+     border-bottom: solid 3px green;
+    }
+
+    
+.about{
+    margin: 0 auto;
+    }
+.about  p  {
+    font-size: 23px;
+    width: 100%;
+    padding:10px;
+
+    line-height: 1.5;
+    border-bottom: 2px solid black;
+   
+
+}   
+div.content p {
+    font-size: 25px;
+    width: 100%;
+  
+    padding:10px;
+    line-height: 1.5;
+    margin-bottom: 3px;
+    
+}
+.lessons img{
+    width:800px;
+    padding: 20px;
+}
+.lessons  p  {
+    max-width: 100%;
+
+    font-size: 25px;
+
+    width: 100%;
+    padding:10px;
+    line-height: 1.5;
+
+
+border-bottom: 2px solid black;
+margin-bottom: 5px;
+    
+}  
+.lessons h1 , h2, h3, h4 {
+        font-size: 30px;
+    font-weight: bold;
+    font-size: 30px;
+  
+    }
+.lessons p {
+    font-size: 30px;
+    }
+    
+    
+
+.policy img{
+width: 350px;
+padding: 20px;
+}
+.policy {
+    max-width: 100%;
+ 
+    font-size:20px;
+
+    width: 100%;
+    padding:10px;
+   
+
+
+border-bottom: 2px solid black;
+margin-bottom: 5px;
+    
+}  
+    
+.about .pageID {
+   
+    width: 100%;
+/*    width: 700px;*/
+    margin-bottom: 10px;
+  
+    
+}
+.about-pic{
+ 
+   width: 100%;
+ 
+    margin: 0 auto;
+}
+
+.flute{
+   
+    max-width: 100% auto;
+
+    height: auto;
+    margin-bottom: 10px;
+/*    margin-left: 20px;*/
+}  
+    
+ .piano{
+   max-width: 100% auto;
+    height: auto;
+
+  
+}  
+
+footer li {
+float: none;
+width: 100%;
+text-align: center;
+margin-left: 10px;
+list-style-type: none;
+height: 30px;
+     
+}
+    
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
